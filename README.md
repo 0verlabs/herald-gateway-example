@@ -1,4 +1,4 @@
-# x402 client example
+# Herald Gateway pay-per-use LLM inference code example
 
 A minimal client that calls the Herald 0G PC Gateway and pays for the request with x402. No API key, no account. The wallet in your `.env` signs a USDC payment on Base (chain `eip155:8453`) whenever the server responds with HTTP 402, then the request retries automatically.
 
